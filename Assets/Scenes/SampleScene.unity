@@ -371,7 +371,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18880e0431224646bd725657f52bcf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  sensitivity: 100
+  sensitivity: 50
   playerBody: {fileID: 814885698}
 --- !u!1 &410087039
 GameObject:
@@ -587,9 +587,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 814885694}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.45, y: 1.51, z: 2.19}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0, y: 0.96126187, z: 0, w: 0.27563682}
+  m_LocalPosition: {x: 1.2738091, y: 0.8231644, z: -0.50004137}
+  m_LocalScale: {x: 0.42014366, y: 0.7293984, z: 0.42014366}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 330585546}
@@ -608,7 +608,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f19abe53aaf415846803b2282d543b96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  speed: 5
+  speed: 3
   jumpHeight: 2
   gravity: -9.81
   groundCheck: {fileID: 1139681255}
