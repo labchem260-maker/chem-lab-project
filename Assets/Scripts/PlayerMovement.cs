@@ -26,7 +26,7 @@ public class PlayerMovement : MonoBehaviour
         playerInput = GetComponent<PlayerInput>();
         moveAction = playerInput.actions.FindAction("Move");
         jumpAction = playerInput.actions.FindAction("Jump");
-        dm= GameObject.FindWithTag("dialog");
+       // dm= GameObject.FindWithTag("dialog");
     }
 
     void Update()
