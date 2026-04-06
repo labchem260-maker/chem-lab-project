@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 public class MouseLook : MonoBehaviour
 {
-    [SerializeField] private float sensitivity = 100f;
+    [SerializeField] private float sensitivity = 20f;
     [SerializeField] private Transform playerBody;
 
     private InputSystem_Actions controls;
@@ -31,7 +31,7 @@ public class MouseLook : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-       // dm=GameObject.FindWithTag("dialog"); 
+        //dm=GameObject.FindWithTag("dialog"); 
     }
 
     private void Update()

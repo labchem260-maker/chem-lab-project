@@ -11,6 +11,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float speed = 5f;
     [SerializeField] float jumpHeight = 2f;
     [SerializeField] float gravity = -9.81f;
+    [SerializeField] Animator handAnimator;
+
 
     CharacterController controller;
     Vector3 velocity;
@@ -20,20 +22,27 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float groundDistance = 0.4f;
     public LayerMask groundMask;
     private GameObject dm;
+
+
+
     void Start()
     {
         controller = GetComponent<CharacterController>();
         playerInput = GetComponent<PlayerInput>();
         moveAction = playerInput.actions.FindAction("Move");
         jumpAction = playerInput.actions.FindAction("Jump");
-       // dm= GameObject.FindWithTag("dialog");
+        // dm= GameObject.FindWithTag("dialog");
     }
 
     void Update()
     {
-        //if(dm.GetComponent<DialogueManager>().istalking) return;
         MovePlayer();
         ApplyGravityAndJump();
+
+        Vector2 input = moveAction.ReadValue<Vector2>();
+
+        bool isMoving = input.magnitude > 0.1f;
+        handAnimator.SetBool("isMoving", isMoving);
     }
 
     void MovePlayer()
@@ -79,4 +88,6 @@ public class PlayerMovement : MonoBehaviour
         //Jump
         controller.Move(velocity * Time.deltaTime);
     }
+
+
 }

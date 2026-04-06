@@ -1012,8 +1012,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   speed: 3
-  jumpHeight: 2
-  gravity: -9.81
+  jumpHeight: 1
+  gravity: -20
   groundCheck: {fileID: 1139681255}
   groundDistance: 0.4
   groundMask:
@@ -1281,7 +1281,7 @@ Transform:
   m_GameObject: {fileID: 1139681254}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.971, z: 0}
+  m_LocalPosition: {x: 0, y: -0.953, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1326,7 +1326,7 @@ GameObject:
   - component: {fileID: 1735605810}
   - component: {fileID: 1735605809}
   - component: {fileID: 1735605808}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ground (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1540,14 +1540,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2702258923758215900}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7070834, y: 0.0057506026, z: -0.0057506235, w: 0.7070834}
-  m_LocalPosition: {x: 19.117407, y: 1.2310953, z: -4.811725}
+  m_LocalRotation: {x: -0.7048073, y: -0.0020748312, z: 0.006834668, w: 0.7093629}
+  m_LocalPosition: {x: 19.264462, y: 1.236754, z: -4.8461375}
   m_LocalScale: {x: 0.80908, y: 0.8090799, z: 0.8090799}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 899065848}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: -89.068, y: 90, z: -90}
+  m_LocalEulerAnglesHint: {x: -89.189, y: -62.725, z: 63.111}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

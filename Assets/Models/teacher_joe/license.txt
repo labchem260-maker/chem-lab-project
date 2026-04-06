@@ -1,0 +1,11 @@
+Model Information:
+* title:	Teacher_Joe
+* source:	https://sketchfab.com/3d-models/teacher-joe-c0ec31df2e004e73a3851f060b782a40
+* author:	Joe chakrapong (https://sketchfab.com/chakrapong)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Teacher_Joe" (https://sketchfab.com/3d-models/teacher-joe-c0ec31df2e004e73a3851f060b782a40) by Joe chakrapong (https://sketchfab.com/chakrapong) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
